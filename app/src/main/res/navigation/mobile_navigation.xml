@@ -7,21 +7,21 @@
 
     <fragment
         android:id="@+id/currentWeatherFragment"
-        android:name="com.example.weatherstuff.ui.current.CurrentWeatherFragment"
+        android:name="com.example.weatherstuff.ui.weather.current.CurrentWeatherFragment"
         android:label="current_weather_fragment"
         tools:layout="@layout/current_weather_fragment" />
     <fragment
         android:id="@+id/futureListFragment"
-        android:name="com.example.weatherstuff.ui.future.list.Future_List_Fragment"
+        android:name="com.example.weatherstuff.ui.weather.future.list.Future_List_Fragment"
         android:label="future_list_fragment"
         tools:layout="@layout/future__list__fragment" />
     <fragment
         android:id="@+id/futureDetailFragment"
-        android:name="com.example.weatherstuff.ui.future.detail.Future_Detail_Fragment"
+        android:name="com.example.weatherstuff.ui.weather.future.detail.Future_Detail_Fragment"
         android:label="future_detail_fragment"
         tools:layout="@layout/future__detail__fragment" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.weatherstuff.ui.settings.SettingsFragment"
+        android:name="com.example.weatherstuff.ui.weather.settings.SettingsFragment"
         android:label="settingsFragment" />
 </navigation>

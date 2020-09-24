@@ -1,4 +1,4 @@
-package com.example.weatherstuff.ui.future.list
+package com.example.weatherstuff.ui.weather.future.list
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle

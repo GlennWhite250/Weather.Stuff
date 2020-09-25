@@ -13,7 +13,10 @@ data class ImperialCurrentWeatherEntry(
     override val precipitationVolume: Double,
     @ColumnInfo(name = "feelslike")
     override val feelsLikeTemperature: Double,
+    @ColumnInfo(name = "visibility")
     override val visibilityDistance: Double,
+    @ColumnInfo(name = "weatherDescriptions")
     override val conditionText: String,
+    @ColumnInfo(name = "weatherIcons")
     override val conditionIconURL: String
 ): UnitSpecificCurrentWeather
